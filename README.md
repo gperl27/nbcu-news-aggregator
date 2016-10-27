@@ -5,7 +5,7 @@
 
 #### Required Resources:
 You will need an API key for AlcmemyAPI, from IMB's Blue Mix Watson library.
-Visit [IBM BlieMix](https://www.ibm.com/cloud-computing/bluemix/) an create an account
+Visit [IBM BlueMix](https://www.ibm.com/cloud-computing/bluemix/) an create an account
 Once you have registered and logged in, click [here](https://console.ng.bluemix.net/catalog/services/alchemyapi/?taxonomyNavigation=applications) and create your key for AlchemyAPI.
 
 
@@ -24,4 +24,4 @@ From you teminal, `cd` into the project directory and run the following commands
 	> npm start
 ```
 
-The application will be running on [localhost:8080](localhost:8080)
+The application will be running on [localhost:8080](127.0.0.1:8080)
