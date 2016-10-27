@@ -1,25 +1,23 @@
-# ReduxSimpleStarter
+# NewsQuik - A News Aggregator
+## This application was built as a submission to the 2016 NBC Universal Hackathon, Miami	
+### Authors: Daniel Hoffens, Greg Perlman, Miguel Lozano
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
 
-###Getting Started###
+#### Required Resources:
+You will need an API key for AlcmemyAPI, from IMB's Blue Mix Watson library.
+Visit [IBM BlieMix](https://www.ibm.com/cloud-computing/bluemix/) an create an account
+Once you have registered and logged in, click [here](https://console.ng.bluemix.net/catalog/services/alchemyapi/?taxonomyNavigation=applications) and create your key for AlchemyAPI.
 
-There are two methods for getting started with this repo.
 
-####Familiar with Git?#####
-Checkout this repo, install dependencies, then start the gulp process with the following:
+####Once you have your API key:
+Create a `.env` file in the root directory of this project and add the following text:
+`API_KEY8={your.API.Key.Here}`
 
-```
-	> git clone git@github.com:StephenGrider/ReduxSimpleStarter.git
-	> cd ReduxSimpleStarter
-	> npm install
-	> npm start
-```
-
-####Not Familiar with Git?#####
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
+From you teminal, `cd` into the project directory and run the following commands:
 
 ```
 	> npm install
 	> npm start
 ```
+
+The application will be running on [localhost:8080](localhost:8080)
