@@ -11,7 +11,11 @@ Once you have registered and logged in, click [here](https://console.ng.bluemix.
 
 ####Once you have your API key:
 Create a `.env` file in the root directory of this project and add the following text:
-`API_KEY8={your.API.Key.Here}`
+```
+API_KEY8={your.API.Key.Here}
+```
+Save the `.env` file.
+
 
 From you teminal, `cd` into the project directory and run the following commands:
 
